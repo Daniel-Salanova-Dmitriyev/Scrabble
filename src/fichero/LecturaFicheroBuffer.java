@@ -15,9 +15,69 @@ import java.util.List;
 import java.util.stream.Stream;
 
 public class LecturaFicheroBuffer {
+    private FileReader f;
+    private BufferedReader br;
+    private int c; // letra para ir leyendo
     
-    public static Palabra[] leer(String fileName){
-        Palabra[] palabras= new Palabra[188259];
+    public LecturaFicheroBuffer(String nom) throws Exception {
+        f = new FileReader(nom);
+        br = new BufferedReader(f);
+    }
+    
+    public void cerrar() throws Exception {
+        br.close();
+        f.close();
+    }
+    
+    public String leerTodoLineaALinea() throws Exception{
+        String s ="";
+        String l = br.readLine();
+        while (l != null){
+            s = s + l + '\n';
+            l = br.readLine();
+        }
+        return s;
+    }
+    
+    public Palabra leerPalabra() throws Exception{
+        Palabra aux = new Palabra(); //  la que se va a devovler
+        //coloco sobre el primer char
+        c = br.read();
+        //mientras no estoy sobre el primer char de la palabra o final
+        saltarBlancosYOtros();
+           // mientras no final y char de palabra
+           while(c != -1 && c >= 32){   
+            //inserta letra en palabra
+            aux.anadirCaracter((char)c);
+            //lee siguiente char
+            c = br.read();
+            }
+        
+        return aux;
+    }
+    
+    private void saltarBlancosYOtros() throws Exception{
+         // mientras no final de fichero y c <= 32 (espacio o cualquier otro char)
+         while(c!=-1 && c<=32){
+             c = br.read();
+         }
+    }
+    public static Palabra[] leerDiccionario(String nombre, int cantidadPalabrasFichero) throws Exception{
+        Palabra[] palabras = new Palabra[cantidadPalabrasFichero];
+        LecturaFicheroBuffer f = new LecturaFicheroBuffer(nombre);
+        Palabra p = f.leerPalabra();
+        int i = 0;
+        while(!p.vacia()){
+            palabras[i] = p;
+            i++;
+            p = f.leerPalabra();
+        }
+        f.cerrar();
+        return palabras;
+    }
+    
+    /*public static Palabra[] leer(String fileName){
+        Palabra[] palabras = new Palabra[188259];
         Path path = Paths.get(fileName);
         try (BufferedReader reader = Files.newBufferedReader(path)) {
             String str;
@@ -32,61 +92,12 @@ public class LecturaFicheroBuffer {
                 palabras[contador] = p;
                 contador++;
             }
+            reader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }   
         return  palabras;
-    }
-    public static Rubrica[] alfabeto(String fileName){
-        Path path = Paths.get(fileName);
-        Rubrica[] rubricaLetras = new Rubrica[26];
-        try (BufferedReader reader = Files.newBufferedReader(path)) {
-            String str;
-            String[] strArr = new String[28];
-            Rubrica r;
-            int c = 0;
-            int k = 0;
-            while ((str = reader.readLine()) != null) {
-                strArr[c] = str;
-                c++;
-            }
-            
-            for(int i=1; i<strArr.length;i++){
-                //Lega hasta qaui
-                char[] linea = strArr[i].toCharArray();
-                char letra = linea[0]; //Letra
-                int puntos = 0;
-                int cantidad = 0;
-                int selector = 1;
-                boolean letraEncontrada = false;
-                for(int j=1;j<linea.length;i++){
-                   if(linea[j] != ' ' && linea[j+1] == ' ' && selector == 1){
-                       puntos += linea[j];
-                   }
-                   if(linea[j] != ' ' && linea[j+1] != ' ' && selector == 1){
-                       puntos += linea[j];
-                       puntos += linea[j+1] * 10;
-                   }
-                    if(linea[j] != ' ' && linea[j+1] == ' ' && selector == 2){
-                       cantidad += linea[j];
-                   }
-                   if(linea[j] != ' ' && linea[j+1] != ' ' && selector == 2){
-                       cantidad += linea[j];
-                       cantidad += linea[j+1] * 10;
-                   } 
-                }
-                r = new Rubrica(letra,cantidad,puntos);
-                System.out.println(r);
-                rubricaLetras[k] = r;
-                k++;
-            }
-           
-        } catch (IOException e) {
-            e.printStackTrace();
-        }   
-         for(Rubrica r: rubricaLetras){
-            System.out.println(r);
-        }
-         return rubricaLetras;
-    }
+    }*/
+    
+    
 }

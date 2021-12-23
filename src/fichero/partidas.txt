@@ -1,0 +1,4 @@
+
+Nombre: Dani, Turnos: 2, Puntos: 17, Fecha: Thu Dec 23 16:38:49 CET 2021
+Nombre: Marta, Turnos: 1, Puntos: -10, Fecha: Thu Dec 23 16:39:39 CET 2021
+Nombre: Pedro, Turnos: 1, Puntos: 10, Fecha: Thu Dec 23 16:58:46 CET 2021
