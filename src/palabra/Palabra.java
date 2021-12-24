@@ -13,6 +13,10 @@ public class Palabra {
     public char[] getPal(){
         return this.pal;
     }
+    
+    public int getN(){
+        return this.n;
+    }
     public static void leerArray(Palabra[] a){
         for(Palabra p : a){
             System.out.println(p);

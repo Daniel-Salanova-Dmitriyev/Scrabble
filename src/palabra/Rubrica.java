@@ -34,6 +34,14 @@ public class Rubrica {
     public int getPuntos () {
         return this.puntos;
     }
+    
+    public int getCantidad(){
+        return this.cantidad;
+    }
+    
+    public void setCantidad(int i){
+        this.cantidad += i;
+    }
     public static void generarRúbrica() throws Exception{ //Generamos la rubrica
         LecturaFicheroBuffer f = new LecturaFicheroBuffer("src\\\\fichero\\\\esp.alf");
         Palabra pal = f.leerPalabra();
