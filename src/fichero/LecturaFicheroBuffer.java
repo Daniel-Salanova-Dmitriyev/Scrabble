@@ -76,28 +76,7 @@ public class LecturaFicheroBuffer {
         return palabras;
     }
     
-    /*public static Palabra[] leer(String fileName){
-        Palabra[] palabras = new Palabra[188259];
-        Path path = Paths.get(fileName);
-        try (BufferedReader reader = Files.newBufferedReader(path)) {
-            String str;
-            Palabra p;
-            int contador = 0;
-            while ((str = reader.readLine()) != null) {
-                p = new Palabra();
-                char[] charArray = str.toCharArray();
-                for(int i=0; i<charArray.length; i++){
-                    p.anadirCaracter(charArray[i]);
-                }
-                palabras[contador] = p;
-                contador++;
-            }
-            reader.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }   
-        return  palabras;
-    }*/
+    
     
     
 }

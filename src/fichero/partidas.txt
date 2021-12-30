@@ -1,16 +1,8 @@
 
-Nombre: Dani, Turnos: 2, Puntos: 17, Fecha: Thu Dec 23 16:38:49 CET 2021
-Nombre: Marta, Turnos: 1, Puntos: -10, Fecha: Thu Dec 23 16:39:39 CET 2021
-Nombre: Pedro, Turnos: 1, Puntos: 10, Fecha: Thu Dec 23 16:58:46 CET 2021
-Nombre: Dani, Turnos: 2, Puntos: 14, Fecha: Fri Dec 24 11:37:08 CET 2021
-Nombre: Pedro, Turnos: 10, Puntos: 84, Fecha: Fri Dec 24 11:41:21 CET 2021
-Nombre: 1, Turnos: 10, Puntos: 28, Fecha: Fri Dec 24 12:35:29 CET 2021
-Nombre: Pedro, Turnos: 2, Puntos: 9, Fecha: Fri Dec 24 12:38:41 CET 2021
-Nombre: Dani, Turnos: 1, Puntos: 6, Fecha: Fri Dec 24 12:39:53 CET 2021
-Nombre: Test, Turnos: 2, Puntos: -2, Fecha: Fri Dec 24 14:11:02 CET 2021
-Nombre: Test, Turnos: 3, Puntos: 6, Fecha: Fri Dec 24 14:14:59 CET 2021
-Nombre: Test, Turnos: 1, Puntos: 5, Fecha: Fri Dec 24 14:22:11 CET 2021
-Nombre: Test, Turnos: 1, Puntos: 12, Fecha: Fri Dec 24 14:22:39 CET 2021
-Nombre: Admin, Turnos: 4, Puntos: -17, Fecha: Fri Dec 24 14:30:22 CET 2021
-Nombre: Test, Turnos: 3, Puntos: -33, Fecha: Fri Dec 24 14:34:21 CET 2021
-Nombre: Test, Turnos: 10, Puntos: 4, Fecha: Fri Dec 24 14:37:50 CET 2021
+Nombre: Dani, Turnos: 2, Puntos: -4, Fecha: Wed Dec 29 16:59:18 CET 2021, Idioma: esp ,Puntos bot: 16 ,Resultado: Derrota
+Nombre: Dani, Turnos: 1, Puntos: 6, Fecha: Wed Dec 29 17:00:04 CET 2021, Idioma: cat
+Nombre: Dani, Turnos: 2, Puntos: -23, Fecha: Thu Dec 30 12:03:38 CET 2021, Idioma: cat
+Nombre: Dani, Turnos: 4, Puntos: 16, Fecha: Thu Dec 30 12:06:43 CET 2021, Idioma: esp, Puntos bot: 50, Resultado: Derrota
+Nombre: Dani, Turnos: 4, Puntos: -47, Fecha: Thu Dec 30 12:09:38 CET 2021, Idioma: cat, Puntos bot: 36, Resultado: Derrota
+Nombre: Test, Turnos: 3, Puntos: 17, Fecha: Thu Dec 30 12:11:11 CET 2021, Idioma: esp, Puntos bot: 14, Resultado: Ganada
+Nombre: Test, Turnos: 3, Puntos: 25, Puntos bot: 29, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 12:16:11 CET 2021
