@@ -1,36 +1,35 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package palabra;
-import fichero.*;
 /**
  *
- * @author CASA
+ * @author Daniel Salanova Dmitriyev Grupo 2
  */
+
+package palabra;
+import fichero.*;
+/*
+    Clase encargada de almacenar todos los datos del fichero esp.alf dentro de un array, cada objeto tendrá letra, cantidad y puntos
+*/
 public class Rubrica {
     private char letra;
     private int cantidad;
     private int puntos;
+    
     public static int numeroLetras = 0;
     public static Rubrica[] rubricaPuntos;
+    
     public Rubrica (){
        
     }
+    
     public Rubrica (char l, int c, int p){
         this.letra = l;
         this.cantidad = c;
         this.puntos = p;
     }
-    
-    public Rubrica[] getRubricaPuntos(){
-        return this.rubricaPuntos;
-    }
-    
+      
     public char getLetra () {
         return this.letra;
     }
+    
     public int getPuntos () {
         return this.puntos;
     }
@@ -42,23 +41,24 @@ public class Rubrica {
     public void setCantidad(int i){
         this.cantidad += i;
     }
-    public static void generarRúbrica() throws Exception{ //Generamos la rubrica
-        LecturaFicheroBuffer f = new LecturaFicheroBuffer("src\\\\fichero\\\\esp.alf");
-        Palabra pal = f.leerPalabra();
-        numeroLetras = pal.convertir();
-        rubricaPuntos = new Rubrica[26];
+    
+    public static void generarRubrica() throws Exception{ //Generamos la rubrica
+        LecturaFichero f = new LecturaFichero("src\\\\fichero\\\\esp.alf"); //Abrimos el fichero
+        Palabra pal = f.leerPalabra(); // Leemos la primera linea que es a su vez la cantidad de letras
+        numeroLetras = pal.convertir(); // Lo convertimos a número
+        rubricaPuntos = new Rubrica[26]; // Siendo 26 el numero de letras que existen dentro de nuestro fichero alfabeto
         int i = 0; // Indice
         if(numeroLetras > 0){
-            Palabra v = f.leerPalabra(); // vocales
+            Palabra l = f.leerPalabra(); // letras
             Palabra c = f.leerPalabra(); //cantidad
             Palabra p = f.leerPalabra(); // Puntos
-            while(!v.vacia() && !c.vacia()){
-                int cantidad = c.convertir();
-                int puntos = p.convertir();
-                Rubrica r = new Rubrica(v.getPal()[0],cantidad,puntos);
-                rubricaPuntos[i] = r;
+            while(!l.vacia() && !c.vacia() && !p.vacia()){ //Mientras existan los 3 elementos seguimos
+                int cantidad = c.convertir(); // Como son números y lo que tenemos es un conjunto de char lo convertimos a int
+                int puntos = p.convertir(); // Como son números y lo que tenemos es un conjunto de char lo convertimos a int
+                Rubrica r = new Rubrica(l.getPal()[0],cantidad,puntos); // Generamos el objeto
+                rubricaPuntos[i] = r; // Lo añadimos al array
                 i++;
-                v = f.leerPalabra(); // vocales
+                l = f.leerPalabra(); // letras
                 c = f.leerPalabra(); //cantidad
                 p = f.leerPalabra(); // Puntos
             }

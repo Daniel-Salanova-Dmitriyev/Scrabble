@@ -6,3 +6,52 @@ Nombre: Dani, Turnos: 4, Puntos: 16, Fecha: Thu Dec 30 12:06:43 CET 2021, Idioma
 Nombre: Dani, Turnos: 4, Puntos: -47, Fecha: Thu Dec 30 12:09:38 CET 2021, Idioma: cat, Puntos bot: 36, Resultado: Derrota
 Nombre: Test, Turnos: 3, Puntos: 17, Fecha: Thu Dec 30 12:11:11 CET 2021, Idioma: esp, Puntos bot: 14, Resultado: Ganada
 Nombre: Test, Turnos: 3, Puntos: 25, Puntos bot: 29, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 12:16:11 CET 2021
+Nombre: Dani, Turnos: 1, Puntos: 2, Puntos bot: 1, Resultado: Ganada, Idioma: esp, Fecha: Thu Dec 30 15:37:36 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: -20, Puntos bot: 55, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 15:47:18 CET 2021
+Nombre: Dani, Turnos: 2, Puntos: -6, Puntos bot: 5, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 16:13:09 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: 6, Puntos bot: 6, Resultado: Ganada, Idioma: esp, Fecha: Thu Dec 30 16:19:27 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: -16, Puntos bot: 18, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 16:23:38 CET 2021
+Nombre: Dani, Turnos: 4, Puntos: 2, Puntos bot: 20, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 16:26:04 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: 4, Puntos bot: 11, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 16:27:54 CET 2021
+Nombre: Dani, Turnos: 4, Puntos: 27, Puntos bot: -5, Resultado: Ganada, Idioma: esp, Fecha: Thu Dec 30 16:30:43 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: 17, Puntos bot: 18, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 16:31:53 CET 2021
+Nombre: Dani, Turnos: 4, Puntos: 7, Puntos bot: 23, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 16:33:17 CET 2021
+Nombre: Dani, Turnos: 4, Puntos: 24, Puntos bot: 50, Resultado: Derrota, Idioma: esp, Fecha: Thu Dec 30 16:34:48 CET 2021
+Nombre: Dani, Turnos: 5, Puntos: 16, Puntos bot: 45, Resultado: Derrota, Idioma: esp, Fecha: Fri Dec 31 00:39:33 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: 16, Idioma: esp, Fecha: Fri Dec 31 00:45:01 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: -6, Puntos bot: 9, Resultado: Derrota, Idioma: esp, Fecha: Fri Dec 31 00:52:55 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: -19, Idioma: esp, Fecha: Fri Dec 31 00:55:19 CET 2021
+Nombre: Dani, Turnos: 3, Puntos: 3, Idioma: esp, Fecha: Mon Jan 03 22:43:52 CET 2022
+Nombre: Dani, Turnos: 4, Puntos: 7, Puntos bot: 43, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 03 22:48:02 CET 2022
+Nombre: Test, Turnos: 3, Puntos: 17, Puntos bot: 30, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 03 22:51:46 CET 2022
+Nombre: Test, Turnos: 3, Puntos: 2, Puntos bot: 21, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 03 22:59:23 CET 2022
+Nombre: Dani, Turnos: 2, Puntos: 9, Puntos bot: 14, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 03 23:05:23 CET 2022
+Nombre: Dani, Turnos: 5, Puntos: 23, Puntos bot: 9, Resultado: Ganada, Idioma: esp, Fecha: Mon Jan 03 23:07:40 CET 2022
+Nombre: Dani, Turnos: 3, Puntos: -12, Puntos bot: 40, Resultado: Derrota, Idioma: esp, Fecha: Wed Jan 05 12:17:52 CET 2022
+Nombre: Dani, Turnos: 4, Puntos: 6, Puntos bot: 44, Resultado: Derrota, Idioma: esp, Fecha: Thu Jan 06 12:20:15 CET 2022
+Nombre: Dani, Turnos: 6, Puntos: 31, Idioma: esp, Fecha: Thu Jan 06 12:21:49 CET 2022
+Nombre: dani, Turnos: 2, Puntos: -20, Idioma: esp, Fecha: Mon Jan 10 08:44:15 CET 2022
+Nombre: test, Turnos: 4, Puntos: -27, Idioma: cat, Fecha: Mon Jan 10 09:02:44 CET 2022
+Nombre: dani, Turnos: 3, Puntos: -3, Idioma: cat, Fecha: Mon Jan 10 17:44:20 CET 2022
+Nombre: teest, Turnos: 3, Puntos: 0, Puntos bot: 10, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 10 18:02:32 CET 2022
+Nombre: test, Turnos: 7, Puntos: 38, Puntos bot: 76, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 10 18:17:58 CET 2022
+Nombre: test, Turnos: 10, Puntos: 49, Idioma: esp, Fecha: Mon Jan 10 18:27:57 CET 2022
+Nombre: test, Turnos: 12, Puntos: 36, Puntos bot: 151, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 10 18:37:24 CET 2022
+Nombre: Test1, Turnos: 10, Puntos: -21, Idioma: esp, Fecha: Sun Jan 23 14:44:33 CET 2022
+Nombre: Test, Turnos: 1, Puntos: 6, Idioma: cat, Fecha: Sun Jan 23 15:33:51 CET 2022
+Nombre: Test, Turnos: 5, Puntos: -5, Puntos bot: 63, Resultado: Derrota, Idioma: cat, Fecha: Sun Jan 23 15:36:38 CET 2022
+Nombre: dani, Turnos: 3, Puntos: 8, Puntos bot: 25, Resultado: Derrota, Idioma: cat, Fecha: Sun Jan 23 16:15:26 CET 2022
+Nombre: e, Turnos: 4, Puntos: 3, Puntos bot: 38, Resultado: Derrota, Idioma: cat, Fecha: Sun Jan 23 16:25:54 CET 2022
+Nombre: Test, Turnos: 1, Puntos: 4, Puntos bot: 2, Resultado: Ganada, Idioma: cat, Fecha: Sun Jan 23 16:53:52 CET 2022
+Nombre: Test, Turnos: 4, Puntos: -21, Puntos bot: 38, Resultado: Derrota, Idioma: cat, Fecha: Sun Jan 23 16:58:26 CET 2022
+Nombre: e, Turnos: 2, Puntos: -3, Puntos bot: 12, Resultado: Derrota, Idioma: cat, Fecha: Sun Jan 23 16:59:31 CET 2022
+Nombre: Test, Turnos: 2, Puntos: 9, Puntos bot: 27, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 24 12:16:11 CET 2022
+Nombre: Test, Turnos: 2, Puntos: 7, Puntos bot: 23, Resultado: Derrota, Idioma: cat, Fecha: Mon Jan 24 12:17:11 CET 2022
+Nombre: 1, Turnos: 3, Puntos: -18, Idioma: cat, Fecha: Mon Jan 24 12:30:49 CET 2022
+Nombre: Simulacion1, Turnos: 2, Puntos: 15, Puntos bot: 6, Resultado: Ganada, Idioma: esp, Fecha: Mon Jan 24 12:50:03 CET 2022
+Nombre: e, Turnos: 5, Puntos: -6, Puntos bot: 50, Resultado: Derrota, Idioma: cat, Fecha: Mon Jan 24 12:53:34 CET 2022
+Nombre: e, Turnos: 1, Puntos: -10, Puntos bot: 19, Resultado: Derrota, Idioma: cat, Fecha: Mon Jan 24 12:55:49 CET 2022
+Nombre: danif, Turnos: 2, Puntos: 14, Puntos bot: 25, Resultado: Derrota, Idioma: esp, Fecha: Mon Jan 24 13:07:52 CET 2022
+Nombre: test, Turnos: 2, Puntos: -20, Idioma: esp, Fecha: Mon Jan 24 13:08:31 CET 2022
+Nombre: test, Turnos: 3, Puntos: -1, Idioma: esp, Fecha: Mon Jan 24 13:12:00 CET 2022
+Nombre: test, Turnos: 1, Puntos: 7, Idioma: cat, Fecha: Mon Jan 24 13:12:26 CET 2022

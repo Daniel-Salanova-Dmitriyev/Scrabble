@@ -1,22 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ *
+ * @author Daniel Salanova Dmitriyev Grupo 2
  */
+
 package app;
 
-import fichero.LecturaFicheroBuffer;
+import fichero.LecturaFichero;
 import fichero.*;
 import palabra.*;
 import game.*;
 
-/**
- *
- * @author Daniel Salanova Dmitriyev
- */
+
+
 public class Scrabble {
     public void app() throws Exception{
-        Game nuevoJuego = new Game(); //Creamos el juego 
+        Game nuevoJuego = new Game(8); //Creamos el juego y indicamos cuantos segundos queremos para pensar
         nuevoJuego.menu(); //Iniciamos el menu    
     }
     
